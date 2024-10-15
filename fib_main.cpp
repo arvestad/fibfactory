@@ -10,5 +10,6 @@ int main(int argc, char*  argv[]) {
     } else {
         int num = atoi(argv[1]);
         object.print_fibs(num);
+	cout << endl;
     }
 }
